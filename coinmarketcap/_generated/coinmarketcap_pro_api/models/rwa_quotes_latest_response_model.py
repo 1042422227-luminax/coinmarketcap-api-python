@@ -21,36 +21,27 @@ class RWAQuotesLatestResponseModel:
     """
     Attributes:
         data (RWAQuotesLatestResultsObject): Results of your query returned as an object. Example: {'rwa_assets':
-            [{'name': 'NVIDIA', 'symbol': 'NVDA', 'slug': 'nvidia', 'quotes': [{'symbol': 'USD', 'crypto_id': 2781,
-            'average_tokenized_price': 211.04769840665475, 'tokenized_market_cap': 3726091.2870977107,
-            'tokenized_volume_24h': 7654132.31153204, 'last_updated': '2026-07-15T10:45:05.000Z'}], 'rwa_id': 2,
-            'asset_type': 'stock', 'rwa_rank': 2, 'has_tokens': True, 'average_tokenized_price': 211.04769840665475,
-            'tokenized_market_cap': 3726091.2870977107, 'tokenized_volume_24h': 7654132.31153204, 'last_updated':
-            '2026-07-15T10:13:26.066Z', 'tokens': [{'symbol': None, 'name': None, 'price': None, 'crypto_id': 37679,
-            'issuer_id': None, 'issuer_name': None, 'market_cap': None, 'volume_24h': None}, {'symbol': 'NVDA', 'name':
-            'NVIDIA tokenized stock FTX', 'price': None, 'crypto_id': 7913, 'issuer_id': None, 'issuer_name': None,
-            'market_cap': None, 'volume_24h': None}, {'symbol': 'DNVDA', 'name': 'Nvidia Tokenized Stock Defichain',
-            'price': None, 'crypto_id': 19241, 'issuer_id': None, 'issuer_name': None, 'market_cap': None, 'volume_24h':
-            None}, {'symbol': 'NVDA.D', 'name': 'NVIDIA tokenized stock (Dinari)', 'price': None, 'crypto_id': 28616,
-            'issuer_id': None, 'issuer_name': None, 'market_cap': None, 'volume_24h': None}, {'symbol': 'NVDAX', 'name':
-            'NVIDIA tokenized stock (xStock)', 'price': 211.3282623557711, 'crypto_id': 36992, 'issuer_id':
-            '69af7c7fef8bc60199c88622', 'issuer_name': 'Testing1', 'market_cap': 3731044.7, 'volume_24h': 8302814.85222761},
-            {'symbol': 'MSTR', 'name': 'Strategy Inc. Tokenized Stock (Robinhood)', 'price': None, 'crypto_id': 40745,
-            'issuer_id': None, 'issuer_name': None, 'market_cap': None, 'volume_24h': None}], 'tradfi_markets':
-            [{'exchange': {'slug': 'binance', 'name': 'Binance', 'exchange_id': 270}, 'ticker': 'NVDA', 'market_url':
-            'https://www.binance.com/en/stocks/EQ_NVDA'}]}, {'name': 'GOLD', 'symbol': 'GOLD', 'slug': 'gold', 'quotes':
-            [{'symbol': 'USD', 'crypto_id': 2781, 'average_tokenized_price': 4018.181479970762, 'tokenized_market_cap':
-            1884879975.1722481, 'tokenized_volume_24h': 139285845.12748477, 'last_updated': '2026-07-15T10:45:05.000Z'}],
+            [{'name': 'Nvidia Corp', 'symbol': 'NVDA', 'slug': 'nvidia', 'quotes': [{'symbol': 'USD', 'crypto_id': 2781,
+            'average_tokenized_price': 226.4599992554912, 'tokenized_market_cap': 117414402.19394198,
+            'tokenized_volume_24h': 79320399.19936948, 'last_updated': '2026-09-09T06:49:59.000Z'}], 'rwa_id': 2,
+            'asset_type': 'stock', 'rwa_rank': 2, 'has_tokens': True, 'average_tokenized_price': 226.4599992554912,
+            'tokenized_market_cap': 117414402.19394198, 'tokenized_volume_24h': 79320399.19936948, 'last_updated':
+            '2026-09-09T06:50:33.594Z', 'tokens': [{'symbol': 'NVDAX', 'name': 'NVIDIA tokenized stock (xStock)', 'price':
+            226.33422377299925, 'crypto_id': 36992, 'issuer_id': '6878977dcbbf471de3366e85', 'issuer_name': 'Backed Assets',
+            'market_cap': 39526066.25, 'volume_24h': 12187859.2729597}, {'symbol': 'NVDAon', 'name': 'NVIDIA Tokenized Stock
+            (Ondo)', 'price': 226.5005458510576, 'crypto_id': 38093, 'issuer_id': '688ca4ccabae9b5b9fb3167a', 'issuer_name':
+            'Ondo Assets', 'market_cap': 38222994.66, 'volume_24h': 2634471.69806766}], 'tradfi_markets': [{'exchange':
+            {'slug': 'binance', 'name': 'Binance', 'exchange_id': 270}, 'ticker': 'NVDA', 'market_url':
+            'https://www.binance.com/en/stocks/EQ_NVDA'}]}, {'name': 'Gold', 'symbol': 'GOLD', 'slug': 'gold', 'quotes':
+            [{'symbol': 'USD', 'crypto_id': 2781, 'average_tokenized_price': 4399.672364252196, 'tokenized_market_cap':
+            4691165858.450071, 'tokenized_volume_24h': 386677568.7358118, 'last_updated': '2026-09-09T06:49:59.000Z'}],
             'rwa_id': 1, 'asset_type': 'commodity', 'rwa_rank': 1, 'has_tokens': True, 'average_tokenized_price':
-            4018.181479970762, 'tokenized_market_cap': 1884879975.1722481, 'tokenized_volume_24h': 139285845.12748477,
-            'last_updated': '2026-07-15T10:13:26.989Z', 'tokens': [{'symbol': 'DGX', 'name': 'Digix Gold Token', 'price':
-            None, 'crypto_id': 2739, 'issuer_id': None, 'issuer_name': None, 'market_cap': 0, 'volume_24h': 0}, {'symbol':
-            'PAXG', 'name': 'PAX Gold', 'price': 4024.3699282937187, 'crypto_id': 4705, 'issuer_id': None, 'issuer_name':
-            None, 'market_cap': 1806493532.83, 'volume_24h': 134844803.16977933}, {'symbol': 'XAUM', 'name': 'Matrixdock
-            Gold', 'price': 4030.1765182593685, 'crypto_id': 34212, 'issuer_id': None, 'issuer_name': None, 'market_cap':
-            45234553.51, 'volume_24h': 645710.16264194}, {'symbol': 'GOLDAO', 'name': 'GOLDAO', 'price':
-            0.003454950092485161, 'crypto_id': 31296, 'issuer_id': None, 'issuer_name': None, 'market_cap': 2738250.71,
-            'volume_24h': 816.29239512}], 'tradfi_markets': []}]}.
+            4399.672364252196, 'tokenized_market_cap': 4691165858.450071, 'tokenized_volume_24h': 386677568.7358118,
+            'last_updated': '2026-09-09T06:50:32.066Z', 'tokens': [{'symbol': 'PAXG', 'name': 'PAX Gold', 'price':
+            4404.158250158926, 'crypto_id': 4705, 'issuer_id': '68904c24abae9b5b9fb35815', 'issuer_name': 'Paxos',
+            'market_cap': 1904813029.99, 'volume_24h': 183784699.06453583}, {'symbol': 'XAUt', 'name': 'Tether Gold',
+            'price': 4399.163220342952, 'crypto_id': 5176, 'issuer_id': '68904e9cabae9b5b9fb358ac', 'issuer_name': 'Tether
+            Holdings', 'market_cap': 2695911303.57, 'volume_24h': 201510910.10671782}], 'tradfi_markets': []}]}.
         status (APIStatusObject | Unset): Standardized status object for API calls.
     """
 

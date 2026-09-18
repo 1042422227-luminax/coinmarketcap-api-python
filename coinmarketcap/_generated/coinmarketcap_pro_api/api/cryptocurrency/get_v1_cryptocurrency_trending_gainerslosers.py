@@ -174,7 +174,7 @@ def sync_detailed(
       - Enterprise
 
     **Cache / Update frequency:** Every 10 minutes.
-    **Plan credit use:** 1 call credit per 200 cryptocurrencies returned (rounded up) and 1 call credit
+    **Plan credit use:** 1 call credit per 250 cryptocurrencies returned (rounded up) and 1 call credit
     per `convert` option beyond the first.
     **CMC equivalent pages:** Our cryptocurrency Gainers & Losers page [coinmarketcap.com/gainers-
     losers/](https://coinmarketcap.com/gainers-losers/).
@@ -249,7 +249,7 @@ def sync(
       - Enterprise
 
     **Cache / Update frequency:** Every 10 minutes.
-    **Plan credit use:** 1 call credit per 200 cryptocurrencies returned (rounded up) and 1 call credit
+    **Plan credit use:** 1 call credit per 250 cryptocurrencies returned (rounded up) and 1 call credit
     per `convert` option beyond the first.
     **CMC equivalent pages:** Our cryptocurrency Gainers & Losers page [coinmarketcap.com/gainers-
     losers/](https://coinmarketcap.com/gainers-losers/).
@@ -318,7 +318,7 @@ async def asyncio_detailed(
       - Enterprise
 
     **Cache / Update frequency:** Every 10 minutes.
-    **Plan credit use:** 1 call credit per 200 cryptocurrencies returned (rounded up) and 1 call credit
+    **Plan credit use:** 1 call credit per 250 cryptocurrencies returned (rounded up) and 1 call credit
     per `convert` option beyond the first.
     **CMC equivalent pages:** Our cryptocurrency Gainers & Losers page [coinmarketcap.com/gainers-
     losers/](https://coinmarketcap.com/gainers-losers/).
@@ -391,7 +391,7 @@ async def asyncio(
       - Enterprise
 
     **Cache / Update frequency:** Every 10 minutes.
-    **Plan credit use:** 1 call credit per 200 cryptocurrencies returned (rounded up) and 1 call credit
+    **Plan credit use:** 1 call credit per 250 cryptocurrencies returned (rounded up) and 1 call credit
     per `convert` option beyond the first.
     **CMC equivalent pages:** Our cryptocurrency Gainers & Losers page [coinmarketcap.com/gainers-
     losers/](https://coinmarketcap.com/gainers-losers/).

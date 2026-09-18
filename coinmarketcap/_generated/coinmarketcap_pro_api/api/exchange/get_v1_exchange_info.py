@@ -134,7 +134,7 @@ def sync_detailed(
       - Enterprise
 
     **Cache / Update frequency:** Static data is updated only as needed, every 30 seconds.
-    **Plan credit use:** 1 call credit per 100 exchanges returned (rounded up).
+    **Plan credit use:** 1 call credit per 250 exchanges returned (rounded up).
     **CMC equivalent pages:** Exchange detail page metadata like
     [coinmarketcap.com/exchanges/binance/](https://coinmarketcap.com/exchanges/binance/).
 
@@ -194,7 +194,7 @@ def sync(
       - Enterprise
 
     **Cache / Update frequency:** Static data is updated only as needed, every 30 seconds.
-    **Plan credit use:** 1 call credit per 100 exchanges returned (rounded up).
+    **Plan credit use:** 1 call credit per 250 exchanges returned (rounded up).
     **CMC equivalent pages:** Exchange detail page metadata like
     [coinmarketcap.com/exchanges/binance/](https://coinmarketcap.com/exchanges/binance/).
 
@@ -248,7 +248,7 @@ async def asyncio_detailed(
       - Enterprise
 
     **Cache / Update frequency:** Static data is updated only as needed, every 30 seconds.
-    **Plan credit use:** 1 call credit per 100 exchanges returned (rounded up).
+    **Plan credit use:** 1 call credit per 250 exchanges returned (rounded up).
     **CMC equivalent pages:** Exchange detail page metadata like
     [coinmarketcap.com/exchanges/binance/](https://coinmarketcap.com/exchanges/binance/).
 
@@ -306,7 +306,7 @@ async def asyncio(
       - Enterprise
 
     **Cache / Update frequency:** Static data is updated only as needed, every 30 seconds.
-    **Plan credit use:** 1 call credit per 100 exchanges returned (rounded up).
+    **Plan credit use:** 1 call credit per 250 exchanges returned (rounded up).
     **CMC equivalent pages:** Exchange detail page metadata like
     [coinmarketcap.com/exchanges/binance/](https://coinmarketcap.com/exchanges/binance/).
 

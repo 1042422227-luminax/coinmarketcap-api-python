@@ -22,11 +22,11 @@ class GlobalMetricsQuotesHistoricCurrencyQuoteObject:
         total_volume_24h_reported (float): The sum of rolling 24 hour reported volume for all cryptocurrencies at the
             given point in time, historically converted into units of the requested currency. *Note: This field is only
             available after 2019-05-10 and will return `null` prior to that time.* Example: 19918400000.
-        altcoin_market_cap (float): The sum of rolling 24 hour adjusted volume (as outlined in our methodology) for all
+        altcoin_market_cap (float): The sum of all individual cryptocurrency market capitalizations excluding Bitcoin at
+            the given point in time, historically converted into units of the requested currency. Example: 187589500000.
+        altcoin_volume_24h (float): The sum of rolling 24 hour adjusted volume (as outlined in our methodology) for all
             cryptocurrencies excluding Bitcoin at the given point in time, historically converted into units of the
-            requested currency. Example: 187589500000.
-        altcoin_volume_24h (float): The sum of all individual cryptocurrency market capitalizations excluding Bitcoin at
-            the given point in time, historically converted into units of the requested currency. Example: 19918400000.
+            requested currency. Example: 19918400000.
         altcoin_volume_24h_reported (float): The sum of rolling 24 hour reported volume for all cryptocurrencies
             excluding Bitcoin at the given point in time, historically converted into units of the requested currency.
             *Note: This field is only available after 2019-05-10 and will return `null` prior to that time.* Example:

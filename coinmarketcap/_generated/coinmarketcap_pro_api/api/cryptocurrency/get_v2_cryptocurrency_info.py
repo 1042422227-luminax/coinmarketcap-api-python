@@ -157,7 +157,7 @@ def sync_detailed(
     list, rate limits, and examples.</Callout>
 
     **Cache / Update frequency:** Static data is updated only as needed, every 30 seconds.
-    **Plan credit use:** 1 call credit per 100 cryptocurrencies returned (rounded up).
+    **Plan credit use:** 1 call credit per 250 cryptocurrencies returned (rounded up).
     **CMC equivalent pages:** Cryptocurrency detail page metadata like
     [coinmarketcap.com/currencies/bitcoin/](https://coinmarketcap.com/currencies/bitcoin/).
 
@@ -237,7 +237,7 @@ def sync(
     list, rate limits, and examples.</Callout>
 
     **Cache / Update frequency:** Static data is updated only as needed, every 30 seconds.
-    **Plan credit use:** 1 call credit per 100 cryptocurrencies returned (rounded up).
+    **Plan credit use:** 1 call credit per 250 cryptocurrencies returned (rounded up).
     **CMC equivalent pages:** Cryptocurrency detail page metadata like
     [coinmarketcap.com/currencies/bitcoin/](https://coinmarketcap.com/currencies/bitcoin/).
 
@@ -311,7 +311,7 @@ async def asyncio_detailed(
     list, rate limits, and examples.</Callout>
 
     **Cache / Update frequency:** Static data is updated only as needed, every 30 seconds.
-    **Plan credit use:** 1 call credit per 100 cryptocurrencies returned (rounded up).
+    **Plan credit use:** 1 call credit per 250 cryptocurrencies returned (rounded up).
     **CMC equivalent pages:** Cryptocurrency detail page metadata like
     [coinmarketcap.com/currencies/bitcoin/](https://coinmarketcap.com/currencies/bitcoin/).
 
@@ -389,7 +389,7 @@ async def asyncio(
     list, rate limits, and examples.</Callout>
 
     **Cache / Update frequency:** Static data is updated only as needed, every 30 seconds.
-    **Plan credit use:** 1 call credit per 100 cryptocurrencies returned (rounded up).
+    **Plan credit use:** 1 call credit per 250 cryptocurrencies returned (rounded up).
     **CMC equivalent pages:** Cryptocurrency detail page metadata like
     [coinmarketcap.com/currencies/bitcoin/](https://coinmarketcap.com/currencies/bitcoin/).
 

@@ -149,7 +149,7 @@ def sync_detailed(
       - Enterprise
 
     **Cache / Update frequency:** Every 10 minutes.
-    **Plan credit use:** 1 call credit per 200 cryptocurrencies returned (rounded up) and 1 call credit
+    **Plan credit use:** 1 call credit per 250 cryptocurrencies returned (rounded up) and 1 call credit
     per `convert` option beyond the first.
     **CMC equivalent pages:** Our cryptocurrency Trending page [coinmarketcap.com/trending-
     cryptocurrencies/](https://coinmarketcap.com/trending-cryptocurrencies/).
@@ -216,7 +216,7 @@ def sync(
       - Enterprise
 
     **Cache / Update frequency:** Every 10 minutes.
-    **Plan credit use:** 1 call credit per 200 cryptocurrencies returned (rounded up) and 1 call credit
+    **Plan credit use:** 1 call credit per 250 cryptocurrencies returned (rounded up) and 1 call credit
     per `convert` option beyond the first.
     **CMC equivalent pages:** Our cryptocurrency Trending page [coinmarketcap.com/trending-
     cryptocurrencies/](https://coinmarketcap.com/trending-cryptocurrencies/).
@@ -277,7 +277,7 @@ async def asyncio_detailed(
       - Enterprise
 
     **Cache / Update frequency:** Every 10 minutes.
-    **Plan credit use:** 1 call credit per 200 cryptocurrencies returned (rounded up) and 1 call credit
+    **Plan credit use:** 1 call credit per 250 cryptocurrencies returned (rounded up) and 1 call credit
     per `convert` option beyond the first.
     **CMC equivalent pages:** Our cryptocurrency Trending page [coinmarketcap.com/trending-
     cryptocurrencies/](https://coinmarketcap.com/trending-cryptocurrencies/).
@@ -342,7 +342,7 @@ async def asyncio(
       - Enterprise
 
     **Cache / Update frequency:** Every 10 minutes.
-    **Plan credit use:** 1 call credit per 200 cryptocurrencies returned (rounded up) and 1 call credit
+    **Plan credit use:** 1 call credit per 250 cryptocurrencies returned (rounded up) and 1 call credit
     per `convert` option beyond the first.
     **CMC equivalent pages:** Our cryptocurrency Trending page [coinmarketcap.com/trending-
     cryptocurrencies/](https://coinmarketcap.com/trending-cryptocurrencies/).

@@ -32,6 +32,22 @@ from .category_results_map import CategoryResultsMap
 from .cmc20_index_detail_dto import CMC20IndexDetailDTO
 from .cmc20_index_historical_dto import CMC20IndexHistoricalDTO
 from .cmc20_index_latest_dto import CMC20IndexLatestDTO
+from .cmcai_answer_object import CMCAIAnswerObject
+from .cmcai_coin_object import CMCAICoinObject
+from .cmcai_coins_latest_response_model import CMCAICoinsLatestResponseModel
+from .cmcai_coins_latest_results_object import CMCAICoinsLatestResultsObject
+from .cmcai_coins_map_response_model import CMCAICoinsMapResponseModel
+from .cmcai_coins_map_results_object import CMCAICoinsMapResultsObject
+from .cmcai_coverage_coin_object import CMCAICoverageCoinObject
+from .cmcai_coverage_coin_object_available_question_keys_item import CMCAICoverageCoinObjectAvailableQuestionKeysItem
+from .cmcai_insight_object import CMCAIInsightObject
+from .cmcai_insight_object_question_key_type_1 import CMCAIInsightObjectQuestionKeyType1
+from .cmcai_insight_object_question_key_type_2_type_1 import CMCAIInsightObjectQuestionKeyType2Type1
+from .cmcai_insight_object_question_key_type_3_type_1 import CMCAIInsightObjectQuestionKeyType3Type1
+from .cmcai_insight_object_type import CMCAIInsightObjectType
+from .cmcai_latest_response_model import CMCAILatestResponseModel
+from .cmcai_latest_results_object import CMCAILatestResultsObject
+from .cmcai_source_object import CMCAISourceObject
 from .coin import Coin
 from .common_batch_request_dto import CommonBatchRequestDTO
 from .community_trending_token_response_model import CommunityTrendingTokenResponseModel
@@ -369,6 +385,7 @@ from .get_v2_cryptocurrency_ohlcv_historical_time_period import GetV2Cryptocurre
 from .get_v2_cryptocurrency_quotes_historical_interval import GetV2CryptocurrencyQuotesHistoricalInterval
 from .get_v3_cryptocurrency_listings_latest_response_200 import GetV3CryptocurrencyListingsLatestResponse200
 from .get_v3_cryptocurrency_quotes_historical_interval import GetV3CryptocurrencyQuotesHistoricalInterval
+from .get_v5_cmc_ai_coins_map_sort import GetV5CmcAiCoinsMapSort
 from .get_v5_cryptocurrency_derivatives_market_pairs_list_latest_category import (
     GetV5CryptocurrencyDerivativesMarketPairsListLatestCategory,
 )
@@ -627,6 +644,22 @@ __all__ = (
     "CMC20IndexDetailDTO",
     "CMC20IndexHistoricalDTO",
     "CMC20IndexLatestDTO",
+    "CMCAIAnswerObject",
+    "CMCAICoinObject",
+    "CMCAICoinsLatestResponseModel",
+    "CMCAICoinsLatestResultsObject",
+    "CMCAICoinsMapResponseModel",
+    "CMCAICoinsMapResultsObject",
+    "CMCAICoverageCoinObject",
+    "CMCAICoverageCoinObjectAvailableQuestionKeysItem",
+    "CMCAIInsightObject",
+    "CMCAIInsightObjectQuestionKeyType1",
+    "CMCAIInsightObjectQuestionKeyType2Type1",
+    "CMCAIInsightObjectQuestionKeyType3Type1",
+    "CMCAIInsightObjectType",
+    "CMCAILatestResponseModel",
+    "CMCAILatestResultsObject",
+    "CMCAISourceObject",
     "Coin",
     "CommonBatchRequestDTO",
     "CommunityTrendingTokenResponseModel",
@@ -868,6 +901,7 @@ __all__ = (
     "GetV2CryptocurrencyQuotesHistoricalInterval",
     "GetV3CryptocurrencyListingsLatestResponse200",
     "GetV3CryptocurrencyQuotesHistoricalInterval",
+    "GetV5CmcAiCoinsMapSort",
     "GetV5CryptocurrencyDerivativesMarketPairsListLatestCategory",
     "GetV5CryptocurrencyDerivativesMarketPairsListLatestCenterType",
     "GetV5CryptocurrencyDerivativesMarketPairsListLatestFeeType",

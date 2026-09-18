@@ -184,7 +184,7 @@ def sync_detailed(
       - Enterprise
 
     **Cache / Update frequency:** Every 60 seconds.
-    **Plan credit use:** 1 call credit per 100 exchanges returned (rounded up), plus 1 credit per
+    **Plan credit use:** 1 call credit per 250 exchanges returned (rounded up), plus 1 credit per
     `convert` / `convert_id` option beyond the first.
     **CMC equivalent page:**
     [coinmarketcap.com/charts/liquidations/](https://coinmarketcap.com/charts/liquidations/)
@@ -277,7 +277,7 @@ def sync(
       - Enterprise
 
     **Cache / Update frequency:** Every 60 seconds.
-    **Plan credit use:** 1 call credit per 100 exchanges returned (rounded up), plus 1 credit per
+    **Plan credit use:** 1 call credit per 250 exchanges returned (rounded up), plus 1 credit per
     `convert` / `convert_id` option beyond the first.
     **CMC equivalent page:**
     [coinmarketcap.com/charts/liquidations/](https://coinmarketcap.com/charts/liquidations/)
@@ -364,7 +364,7 @@ async def asyncio_detailed(
       - Enterprise
 
     **Cache / Update frequency:** Every 60 seconds.
-    **Plan credit use:** 1 call credit per 100 exchanges returned (rounded up), plus 1 credit per
+    **Plan credit use:** 1 call credit per 250 exchanges returned (rounded up), plus 1 credit per
     `convert` / `convert_id` option beyond the first.
     **CMC equivalent page:**
     [coinmarketcap.com/charts/liquidations/](https://coinmarketcap.com/charts/liquidations/)
@@ -455,7 +455,7 @@ async def asyncio(
       - Enterprise
 
     **Cache / Update frequency:** Every 60 seconds.
-    **Plan credit use:** 1 call credit per 100 exchanges returned (rounded up), plus 1 credit per
+    **Plan credit use:** 1 call credit per 250 exchanges returned (rounded up), plus 1 credit per
     `convert` / `convert_id` option beyond the first.
     **CMC equivalent page:**
     [coinmarketcap.com/charts/liquidations/](https://coinmarketcap.com/charts/liquidations/)

@@ -111,7 +111,7 @@ def sync_detailed(
     list, rate limits, and examples.</Callout>
 
     **Cache / Update frequency:** Every 60 seconds.
-    **Plan credit use:** 1 call credit per 100 cryptocurrencies returned (rounded up) and 1 call credit
+    **Plan credit use:** 1 call credit per 250 cryptocurrencies returned (rounded up) and 1 call credit
     per \`convert\` option beyond the first.
     **CMC equivalent pages:** Latest market data pages for specific cryptocurrencies like
     [coinmarketcap.com/currencies/bitcoin/](https://coinmarketcap.com/currencies/bitcoin/).
@@ -190,7 +190,7 @@ def sync(
     list, rate limits, and examples.</Callout>
 
     **Cache / Update frequency:** Every 60 seconds.
-    **Plan credit use:** 1 call credit per 100 cryptocurrencies returned (rounded up) and 1 call credit
+    **Plan credit use:** 1 call credit per 250 cryptocurrencies returned (rounded up) and 1 call credit
     per \`convert\` option beyond the first.
     **CMC equivalent pages:** Latest market data pages for specific cryptocurrencies like
     [coinmarketcap.com/currencies/bitcoin/](https://coinmarketcap.com/currencies/bitcoin/).
@@ -264,7 +264,7 @@ async def asyncio_detailed(
     list, rate limits, and examples.</Callout>
 
     **Cache / Update frequency:** Every 60 seconds.
-    **Plan credit use:** 1 call credit per 100 cryptocurrencies returned (rounded up) and 1 call credit
+    **Plan credit use:** 1 call credit per 250 cryptocurrencies returned (rounded up) and 1 call credit
     per \`convert\` option beyond the first.
     **CMC equivalent pages:** Latest market data pages for specific cryptocurrencies like
     [coinmarketcap.com/currencies/bitcoin/](https://coinmarketcap.com/currencies/bitcoin/).
@@ -341,7 +341,7 @@ async def asyncio(
     list, rate limits, and examples.</Callout>
 
     **Cache / Update frequency:** Every 60 seconds.
-    **Plan credit use:** 1 call credit per 100 cryptocurrencies returned (rounded up) and 1 call credit
+    **Plan credit use:** 1 call credit per 250 cryptocurrencies returned (rounded up) and 1 call credit
     per \`convert\` option beyond the first.
     **CMC equivalent pages:** Latest market data pages for specific cryptocurrencies like
     [coinmarketcap.com/currencies/bitcoin/](https://coinmarketcap.com/currencies/bitcoin/).

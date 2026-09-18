@@ -5,12 +5,13 @@ from __future__ import annotations
 from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
-    from ._namespaces_gen import CmcIndexApi, CommunityApi, ContentApi, CryptoOthersApi, CryptocurrencyApi, DeprecatedApi, DerivativesApi, ExchangeApi, GlobalMetricsApi, HolderApi, OhlcvApi, PlatformApi, RealWorldAssetsApi, TokenApi, ToolsApi
+    from ._namespaces_gen import CmcAiApi, CmcIndexApi, CommunityApi, ContentApi, CryptoOthersApi, CryptocurrencyApi, DeprecatedApi, DerivativesApi, ExchangeApi, GlobalMetricsApi, HolderApi, OhlcvApi, PlatformApi, RealWorldAssetsApi, TokenApi, ToolsApi
 
 
 class NamespacesMixin:
     """Typed namespace attributes for CoinMarketCap client."""
 
+    cmc_ai: CmcAiApi
     cmc_index: CmcIndexApi
     community: CommunityApi
     content: ContentApi
@@ -32,6 +33,7 @@ class NamespacesMixin:
 def init_namespaces(client: "CoinMarketCap") -> None:
     """Initialize namespace instances on the client."""
     from ._namespaces_gen import (
+        CmcAiApi,
         CmcIndexApi,
         CommunityApi,
         ContentApi,
@@ -48,6 +50,7 @@ def init_namespaces(client: "CoinMarketCap") -> None:
         TokenApi,
         ToolsApi,
     )
+    client.cmc_ai = CmcAiApi(client)
     client.cmc_index = CmcIndexApi(client)
     client.community = CommunityApi(client)
     client.content = ContentApi(client)

@@ -149,7 +149,7 @@ def sync_detailed(
       - Enterprise
 
     **Cache / Update frequency:** Every 24 hours.
-    **Plan credit use:** 1 call credit per 200 cryptocurrencies returned (rounded up) and 1 call credit
+    **Plan credit use:** 1 call credit per 250 cryptocurrencies returned (rounded up) and 1 call credit
     per `convert` option beyond the first.
     **CMC equivalent pages:** The CoinMarketCap “Most Visited” trending list. [coinmarketcap.com/most-
     viewed-pages/](https://coinmarketcap.com/most-viewed-pages/).
@@ -216,7 +216,7 @@ def sync(
       - Enterprise
 
     **Cache / Update frequency:** Every 24 hours.
-    **Plan credit use:** 1 call credit per 200 cryptocurrencies returned (rounded up) and 1 call credit
+    **Plan credit use:** 1 call credit per 250 cryptocurrencies returned (rounded up) and 1 call credit
     per `convert` option beyond the first.
     **CMC equivalent pages:** The CoinMarketCap “Most Visited” trending list. [coinmarketcap.com/most-
     viewed-pages/](https://coinmarketcap.com/most-viewed-pages/).
@@ -277,7 +277,7 @@ async def asyncio_detailed(
       - Enterprise
 
     **Cache / Update frequency:** Every 24 hours.
-    **Plan credit use:** 1 call credit per 200 cryptocurrencies returned (rounded up) and 1 call credit
+    **Plan credit use:** 1 call credit per 250 cryptocurrencies returned (rounded up) and 1 call credit
     per `convert` option beyond the first.
     **CMC equivalent pages:** The CoinMarketCap “Most Visited” trending list. [coinmarketcap.com/most-
     viewed-pages/](https://coinmarketcap.com/most-viewed-pages/).
@@ -342,7 +342,7 @@ async def asyncio(
       - Enterprise
 
     **Cache / Update frequency:** Every 24 hours.
-    **Plan credit use:** 1 call credit per 200 cryptocurrencies returned (rounded up) and 1 call credit
+    **Plan credit use:** 1 call credit per 250 cryptocurrencies returned (rounded up) and 1 call credit
     per `convert` option beyond the first.
     **CMC equivalent pages:** The CoinMarketCap “Most Visited” trending list. [coinmarketcap.com/most-
     viewed-pages/](https://coinmarketcap.com/most-viewed-pages/).

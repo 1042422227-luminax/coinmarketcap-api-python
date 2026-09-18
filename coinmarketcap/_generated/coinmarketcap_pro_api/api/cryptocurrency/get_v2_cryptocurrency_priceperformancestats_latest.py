@@ -161,7 +161,7 @@ def sync_detailed(
       - Enterprise
 
     **Cache / Update frequency:** Every 60 seconds.
-    **Plan credit use:** 1 call credit per 100 cryptocurrencies returned (rounded up) and 1 call credit
+    **Plan credit use:** 1 call credit per 250 cryptocurrencies returned (rounded up) and 1 call credit
     per `convert` option beyond the first.
     **CMC equivalent pages:** The statistics module displayed on cryptocurrency pages like
     [Bitcoin](https://coinmarketcap.com/currencies/bitcoin/).
@@ -247,7 +247,7 @@ def sync(
       - Enterprise
 
     **Cache / Update frequency:** Every 60 seconds.
-    **Plan credit use:** 1 call credit per 100 cryptocurrencies returned (rounded up) and 1 call credit
+    **Plan credit use:** 1 call credit per 250 cryptocurrencies returned (rounded up) and 1 call credit
     per `convert` option beyond the first.
     **CMC equivalent pages:** The statistics module displayed on cryptocurrency pages like
     [Bitcoin](https://coinmarketcap.com/currencies/bitcoin/).
@@ -327,7 +327,7 @@ async def asyncio_detailed(
       - Enterprise
 
     **Cache / Update frequency:** Every 60 seconds.
-    **Plan credit use:** 1 call credit per 100 cryptocurrencies returned (rounded up) and 1 call credit
+    **Plan credit use:** 1 call credit per 250 cryptocurrencies returned (rounded up) and 1 call credit
     per `convert` option beyond the first.
     **CMC equivalent pages:** The statistics module displayed on cryptocurrency pages like
     [Bitcoin](https://coinmarketcap.com/currencies/bitcoin/).
@@ -411,7 +411,7 @@ async def asyncio(
       - Enterprise
 
     **Cache / Update frequency:** Every 60 seconds.
-    **Plan credit use:** 1 call credit per 100 cryptocurrencies returned (rounded up) and 1 call credit
+    **Plan credit use:** 1 call credit per 250 cryptocurrencies returned (rounded up) and 1 call credit
     per `convert` option beyond the first.
     **CMC equivalent pages:** The statistics module displayed on cryptocurrency pages like
     [Bitcoin](https://coinmarketcap.com/currencies/bitcoin/).

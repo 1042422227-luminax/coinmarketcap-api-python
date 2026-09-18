@@ -186,7 +186,7 @@ def sync_detailed(
       - Enterprise
 
     **Cache / Update frequency:** Every 1 minute.
-    **Plan credit use:** 1 call credit per 100 exchanges returned (rounded up) and 1 call credit per
+    **Plan credit use:** 1 call credit per 250 exchanges returned (rounded up) and 1 call credit per
     `convert` option beyond the first.
     **CMC equivalent pages:** Our latest exchange listing and ranking pages like
     [coinmarketcap.com/rankings/exchanges/](https://coinmarketcap.com/rankings/exchanges/).
@@ -275,7 +275,7 @@ def sync(
       - Enterprise
 
     **Cache / Update frequency:** Every 1 minute.
-    **Plan credit use:** 1 call credit per 100 exchanges returned (rounded up) and 1 call credit per
+    **Plan credit use:** 1 call credit per 250 exchanges returned (rounded up) and 1 call credit per
     `convert` option beyond the first.
     **CMC equivalent pages:** Our latest exchange listing and ranking pages like
     [coinmarketcap.com/rankings/exchanges/](https://coinmarketcap.com/rankings/exchanges/).
@@ -358,7 +358,7 @@ async def asyncio_detailed(
       - Enterprise
 
     **Cache / Update frequency:** Every 1 minute.
-    **Plan credit use:** 1 call credit per 100 exchanges returned (rounded up) and 1 call credit per
+    **Plan credit use:** 1 call credit per 250 exchanges returned (rounded up) and 1 call credit per
     `convert` option beyond the first.
     **CMC equivalent pages:** Our latest exchange listing and ranking pages like
     [coinmarketcap.com/rankings/exchanges/](https://coinmarketcap.com/rankings/exchanges/).
@@ -445,7 +445,7 @@ async def asyncio(
       - Enterprise
 
     **Cache / Update frequency:** Every 1 minute.
-    **Plan credit use:** 1 call credit per 100 exchanges returned (rounded up) and 1 call credit per
+    **Plan credit use:** 1 call credit per 250 exchanges returned (rounded up) and 1 call credit per
     `convert` option beyond the first.
     **CMC equivalent pages:** Our latest exchange listing and ranking pages like
     [coinmarketcap.com/rankings/exchanges/](https://coinmarketcap.com/rankings/exchanges/).

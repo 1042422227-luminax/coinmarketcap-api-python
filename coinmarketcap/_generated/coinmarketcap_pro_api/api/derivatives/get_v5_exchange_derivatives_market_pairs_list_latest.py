@@ -197,6 +197,8 @@ def sync_detailed(
       - Enterprise
 
     **Cache / Update frequency:** Every 60 seconds.
+    **Plan credit use:** 1 call credit per 250 market pairs returned (rounded up) and 1 call credit per
+    `convert` option beyond the first.
 
     Args:
         exchange_id (int | Unset):  Example: 270.
@@ -281,6 +283,8 @@ def sync(
       - Enterprise
 
     **Cache / Update frequency:** Every 60 seconds.
+    **Plan credit use:** 1 call credit per 250 market pairs returned (rounded up) and 1 call credit per
+    `convert` option beyond the first.
 
     Args:
         exchange_id (int | Unset):  Example: 270.
@@ -359,6 +363,8 @@ async def asyncio_detailed(
       - Enterprise
 
     **Cache / Update frequency:** Every 60 seconds.
+    **Plan credit use:** 1 call credit per 250 market pairs returned (rounded up) and 1 call credit per
+    `convert` option beyond the first.
 
     Args:
         exchange_id (int | Unset):  Example: 270.
@@ -441,6 +447,8 @@ async def asyncio(
       - Enterprise
 
     **Cache / Update frequency:** Every 60 seconds.
+    **Plan credit use:** 1 call credit per 250 market pairs returned (rounded up) and 1 call credit per
+    `convert` option beyond the first.
 
     Args:
         exchange_id (int | Unset):  Example: 270.

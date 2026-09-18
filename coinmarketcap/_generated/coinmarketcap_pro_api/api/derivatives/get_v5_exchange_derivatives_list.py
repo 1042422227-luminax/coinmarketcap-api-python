@@ -161,7 +161,7 @@ def sync_detailed(
       - Enterprise
 
     **Cache / Update frequency:** Every 60 seconds.
-    **Plan credit use:** 1 call credit per 100 exchanges returned (rounded up) and 1 additional call
+    **Plan credit use:** 1 call credit per 250 exchanges returned (rounded up) and 1 additional call
     credit per `convert` option beyond the first.
 
     Args:
@@ -230,7 +230,7 @@ def sync(
       - Enterprise
 
     **Cache / Update frequency:** Every 60 seconds.
-    **Plan credit use:** 1 call credit per 100 exchanges returned (rounded up) and 1 additional call
+    **Plan credit use:** 1 call credit per 250 exchanges returned (rounded up) and 1 additional call
     credit per `convert` option beyond the first.
 
     Args:
@@ -293,7 +293,7 @@ async def asyncio_detailed(
       - Enterprise
 
     **Cache / Update frequency:** Every 60 seconds.
-    **Plan credit use:** 1 call credit per 100 exchanges returned (rounded up) and 1 additional call
+    **Plan credit use:** 1 call credit per 250 exchanges returned (rounded up) and 1 additional call
     credit per `convert` option beyond the first.
 
     Args:
@@ -360,7 +360,7 @@ async def asyncio(
       - Enterprise
 
     **Cache / Update frequency:** Every 60 seconds.
-    **Plan credit use:** 1 call credit per 100 exchanges returned (rounded up) and 1 additional call
+    **Plan credit use:** 1 call credit per 250 exchanges returned (rounded up) and 1 additional call
     credit per `convert` option beyond the first.
 
     Args:

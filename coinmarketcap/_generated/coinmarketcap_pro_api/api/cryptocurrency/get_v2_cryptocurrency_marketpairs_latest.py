@@ -214,7 +214,7 @@ def sync_detailed(
       - Enterprise
 
     **Cache / Update frequency:** Every 1 minute.
-    **Plan credit use:** 1 call credit per 100 market pairs returned (rounded up) and 1 call credit per
+    **Plan credit use:** 1 call credit per 250 market pairs returned (rounded up) and 1 call credit per
     `convert` option beyond the first.
     **CMC equivalent pages:** Our active cryptocurrency markets pages like [coinmarketcap.com/currencies
     /bitcoin/#markets](https://coinmarketcap.com/currencies/bitcoin/#markets).
@@ -316,7 +316,7 @@ def sync(
       - Enterprise
 
     **Cache / Update frequency:** Every 1 minute.
-    **Plan credit use:** 1 call credit per 100 market pairs returned (rounded up) and 1 call credit per
+    **Plan credit use:** 1 call credit per 250 market pairs returned (rounded up) and 1 call credit per
     `convert` option beyond the first.
     **CMC equivalent pages:** Our active cryptocurrency markets pages like [coinmarketcap.com/currencies
     /bitcoin/#markets](https://coinmarketcap.com/currencies/bitcoin/#markets).
@@ -412,7 +412,7 @@ async def asyncio_detailed(
       - Enterprise
 
     **Cache / Update frequency:** Every 1 minute.
-    **Plan credit use:** 1 call credit per 100 market pairs returned (rounded up) and 1 call credit per
+    **Plan credit use:** 1 call credit per 250 market pairs returned (rounded up) and 1 call credit per
     `convert` option beyond the first.
     **CMC equivalent pages:** Our active cryptocurrency markets pages like [coinmarketcap.com/currencies
     /bitcoin/#markets](https://coinmarketcap.com/currencies/bitcoin/#markets).
@@ -512,7 +512,7 @@ async def asyncio(
       - Enterprise
 
     **Cache / Update frequency:** Every 1 minute.
-    **Plan credit use:** 1 call credit per 100 market pairs returned (rounded up) and 1 call credit per
+    **Plan credit use:** 1 call credit per 250 market pairs returned (rounded up) and 1 call credit per
     `convert` option beyond the first.
     **CMC equivalent pages:** Our active cryptocurrency markets pages like [coinmarketcap.com/currencies
     /bitcoin/#markets](https://coinmarketcap.com/currencies/bitcoin/#markets).

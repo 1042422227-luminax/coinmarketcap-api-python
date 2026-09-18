@@ -148,8 +148,8 @@ def sync_detailed(
     list, rate limits, and examples.</Callout>
 
     **Cache / Update frequency:** Data is updated only as needed, every 30 seconds.
-    **Plan credit use:** 1 API call credit per request + 1 call credit per 200 cryptocurrencies returned
-    (rounded up) and 1 call credit per `convert` option beyond the first.
+    **Plan credit use:** 1 call credit per 250 cryptocurrencies returned (rounded up) and 1 call credit
+    per `convert` option beyond the first.
     **CMC equivalent pages:** Our Cryptocurrency Category page [coinmarketcap.com/cryptocurrency-
     category/](https://coinmarketcap.com/cryptocurrency-category/).
 
@@ -221,8 +221,8 @@ def sync(
     list, rate limits, and examples.</Callout>
 
     **Cache / Update frequency:** Data is updated only as needed, every 30 seconds.
-    **Plan credit use:** 1 API call credit per request + 1 call credit per 200 cryptocurrencies returned
-    (rounded up) and 1 call credit per `convert` option beyond the first.
+    **Plan credit use:** 1 call credit per 250 cryptocurrencies returned (rounded up) and 1 call credit
+    per `convert` option beyond the first.
     **CMC equivalent pages:** Our Cryptocurrency Category page [coinmarketcap.com/cryptocurrency-
     category/](https://coinmarketcap.com/cryptocurrency-category/).
 
@@ -288,8 +288,8 @@ async def asyncio_detailed(
     list, rate limits, and examples.</Callout>
 
     **Cache / Update frequency:** Data is updated only as needed, every 30 seconds.
-    **Plan credit use:** 1 API call credit per request + 1 call credit per 200 cryptocurrencies returned
-    (rounded up) and 1 call credit per `convert` option beyond the first.
+    **Plan credit use:** 1 call credit per 250 cryptocurrencies returned (rounded up) and 1 call credit
+    per `convert` option beyond the first.
     **CMC equivalent pages:** Our Cryptocurrency Category page [coinmarketcap.com/cryptocurrency-
     category/](https://coinmarketcap.com/cryptocurrency-category/).
 
@@ -359,8 +359,8 @@ async def asyncio(
     list, rate limits, and examples.</Callout>
 
     **Cache / Update frequency:** Data is updated only as needed, every 30 seconds.
-    **Plan credit use:** 1 API call credit per request + 1 call credit per 200 cryptocurrencies returned
-    (rounded up) and 1 call credit per `convert` option beyond the first.
+    **Plan credit use:** 1 call credit per 250 cryptocurrencies returned (rounded up) and 1 call credit
+    per `convert` option beyond the first.
     **CMC equivalent pages:** Our Cryptocurrency Category page [coinmarketcap.com/cryptocurrency-
     category/](https://coinmarketcap.com/cryptocurrency-category/).
 

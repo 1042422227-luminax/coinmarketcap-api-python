@@ -181,7 +181,7 @@ def sync_detailed(
       - Enterprise
 
     **Cache / Update frequency:** Every 60 seconds.
-    **Plan credit use:** 1 call credit per 100 market pairs returned (rounded up) and 1 call credit per
+    **Plan credit use:** 1 call credit per 250 market pairs returned (rounded up) and 1 call credit per
     `convert` option beyond the first.
     **CMC equivalent pages:** Our exchange level active markets pages like
     [coinmarketcap.com/exchanges/binance/](https://coinmarketcap.com/exchanges/binance/).
@@ -267,7 +267,7 @@ def sync(
       - Enterprise
 
     **Cache / Update frequency:** Every 60 seconds.
-    **Plan credit use:** 1 call credit per 100 market pairs returned (rounded up) and 1 call credit per
+    **Plan credit use:** 1 call credit per 250 market pairs returned (rounded up) and 1 call credit per
     `convert` option beyond the first.
     **CMC equivalent pages:** Our exchange level active markets pages like
     [coinmarketcap.com/exchanges/binance/](https://coinmarketcap.com/exchanges/binance/).
@@ -347,7 +347,7 @@ async def asyncio_detailed(
       - Enterprise
 
     **Cache / Update frequency:** Every 60 seconds.
-    **Plan credit use:** 1 call credit per 100 market pairs returned (rounded up) and 1 call credit per
+    **Plan credit use:** 1 call credit per 250 market pairs returned (rounded up) and 1 call credit per
     `convert` option beyond the first.
     **CMC equivalent pages:** Our exchange level active markets pages like
     [coinmarketcap.com/exchanges/binance/](https://coinmarketcap.com/exchanges/binance/).
@@ -431,7 +431,7 @@ async def asyncio(
       - Enterprise
 
     **Cache / Update frequency:** Every 60 seconds.
-    **Plan credit use:** 1 call credit per 100 market pairs returned (rounded up) and 1 call credit per
+    **Plan credit use:** 1 call credit per 250 market pairs returned (rounded up) and 1 call credit per
     `convert` option beyond the first.
     **CMC equivalent pages:** Our exchange level active markets pages like
     [coinmarketcap.com/exchanges/binance/](https://coinmarketcap.com/exchanges/binance/).

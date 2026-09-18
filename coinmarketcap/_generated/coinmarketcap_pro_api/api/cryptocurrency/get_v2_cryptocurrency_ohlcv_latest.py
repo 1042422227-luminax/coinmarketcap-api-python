@@ -150,7 +150,7 @@ def sync_detailed(
 
       **Cache / Update frequency:** Every 10 minutes. Additional OHLCV intervals and 1 minute updates
     will be available in the future.
-      **Plan credit use:** 1 call credit per 100 OHLCV values returned (rounded up) and 1 call credit
+      **Plan credit use:** 1 call credit per 250 OHLCV values returned (rounded up) and 1 call credit
     per `convert` option beyond the first.
       **CMC equivalent pages:** No equivalent, this data is only available via API.
 
@@ -224,7 +224,7 @@ def sync(
 
       **Cache / Update frequency:** Every 10 minutes. Additional OHLCV intervals and 1 minute updates
     will be available in the future.
-      **Plan credit use:** 1 call credit per 100 OHLCV values returned (rounded up) and 1 call credit
+      **Plan credit use:** 1 call credit per 250 OHLCV values returned (rounded up) and 1 call credit
     per `convert` option beyond the first.
       **CMC equivalent pages:** No equivalent, this data is only available via API.
 
@@ -292,7 +292,7 @@ async def asyncio_detailed(
 
       **Cache / Update frequency:** Every 10 minutes. Additional OHLCV intervals and 1 minute updates
     will be available in the future.
-      **Plan credit use:** 1 call credit per 100 OHLCV values returned (rounded up) and 1 call credit
+      **Plan credit use:** 1 call credit per 250 OHLCV values returned (rounded up) and 1 call credit
     per `convert` option beyond the first.
       **CMC equivalent pages:** No equivalent, this data is only available via API.
 
@@ -364,7 +364,7 @@ async def asyncio(
 
       **Cache / Update frequency:** Every 10 minutes. Additional OHLCV intervals and 1 minute updates
     will be available in the future.
-      **Plan credit use:** 1 call credit per 100 OHLCV values returned (rounded up) and 1 call credit
+      **Plan credit use:** 1 call credit per 250 OHLCV values returned (rounded up) and 1 call credit
     per `convert` option beyond the first.
       **CMC equivalent pages:** No equivalent, this data is only available via API.
 
